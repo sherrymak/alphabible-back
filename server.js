@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://alphabible-backend.onrender.com"
+    "https://alphabible-front.vercel.app/"  
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
